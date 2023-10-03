@@ -1,3 +1,12 @@
+:root {
+    --darkestpurple: #1A1423;
+    --darkpurple: #372549;
+    --purple: #774C60;
+    --pink: #B75D69;
+    --light: #EACDC2;
+}
+
+
 html {
     font-family: 'Hanken Grotesk', sans-serif;
 } 
