@@ -10,3 +10,48 @@
 html {
     font-family: 'Hanken Grotesk', sans-serif;
 } 
+
+header {
+    padding-top: 1.5em;
+    padding-bottom: 60vh;
+    background-color: var(--darkestpurple);
+}
+
+.navigace {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigace__logo {
+    font-size: 4rem;
+    color: var(--light);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navigace__menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigace__li {
+    list-style-type: none;
+}
+
+.navigace__a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--light);
+}
+
+.welcome-text {
+    text-align: center;
+    color: var(--light);
+    margin-top: 50vh;
+}
+
+.welcome-text__h1 {
+    font-size: 2.5em;
+}
+
