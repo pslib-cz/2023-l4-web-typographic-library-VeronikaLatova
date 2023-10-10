@@ -1,13 +1,15 @@
 :root {
     --darkestpurple: #1A1423;
     --darkpurple: #372549;
-    --purple: #5f5d5e;
+    --gray: #5f5d5e;
     --pink: #B75D69;
     --light: #EACDC2;
+    --white: #ffffff;
 }
 
 html {
     font-family: 'Hanken Grotesk', sans-serif;
+    color: var(--darkpurple);
 } 
 
 h1 {
@@ -66,4 +68,22 @@ h5 {
     color: var(--light);
     border: 5px solid var(--light);
 }
+
+table {
+    border-collapse: collapse;
+    margin: 2em;
+}
+
+td, th {
+    border: thin var(--gray) solid;
+    padding: .5rem;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.5em;
+    color: var(--darkestpurple);
+    font-weight: 700;
+}
+
 

@@ -1,9 +1,10 @@
 :root {
     --darkestpurple: #1A1423;
     --darkpurple: #372549;
-    --purple: #5f5d5e;
+    --gray: #5f5d5e;
     --pink: #B75D69;
     --light: #EACDC2;
+    --white: #ffffff ;
 }
 
 header {
@@ -11,8 +12,6 @@ header {
     padding-bottom: 60vh;
     background-color: var(--darkestpurple);
 }
-
-
 
 .navigace {
     display: flex;
@@ -42,6 +41,10 @@ header {
     color: var(--light);
 }
 
+.navigace__a:hover {
+    border-bottom: 5px solid var(--light);
+}
+
 .welcome-text {
     text-align: center;
     color: var(--light);
@@ -53,10 +56,13 @@ main {
     padding-right: 5em;
 }
 
-.code {
-    font-size: 1.25em;
-}
-
 .buttons__div {
     margin: 2em;
+}
+
+.code {
+    font-size: 1.25em;
+    background-color: var(--gray);
+    display: inline-block;
+    color: var(--white);
 }
