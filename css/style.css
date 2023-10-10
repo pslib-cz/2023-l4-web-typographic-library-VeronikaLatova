@@ -12,6 +12,8 @@ header {
     background-color: var(--darkestpurple);
 }
 
+
+
 .navigace {
     display: flex;
     justify-content: space-around;
@@ -53,4 +55,8 @@ main {
 
 .code {
     font-size: 1.25em;
+}
+
+.buttons__div {
+    margin: 2em;
 }

@@ -33,3 +33,42 @@ h5 {
 h6 {
     font-size: 20px;
 }
+
+
+.button {
+    font-weight: 700;
+    padding: 1em 2em;
+    border-radius: 30px;
+}
+
+.button--basic {
+    border: 5px solid var(--darkestpurple);
+    color: var(--darkestpurple);
+    background-color: var(--light);
+}
+
+.button--basic:hover {
+    background-color: var(--darkestpurple);
+    color: var(--light);
+    cursor: pointer;
+}
+
+.button--reversed {
+    background-color: var(--darkestpurple);
+    color: var(--light);
+    border: 5px solid var(--darkestpurple);
+}
+
+.button--reversed:hover {
+    background-color: var(--light);
+    color: var(--darkestpurple);
+    cursor: pointer;
+}
+
+
+.button--noclick {
+    background-color: var(--pink);
+    color: var(--light);
+    border: 5px solid var(--light);
+}
+
