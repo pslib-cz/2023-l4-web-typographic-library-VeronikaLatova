@@ -19,7 +19,7 @@ header {
 }
 
 .navigace__logo {
-    font-size: 4rem;
+    font-size: 1.5em;
     color: var(--light);
     text-decoration: none;
     font-weight: 700;
@@ -51,6 +51,13 @@ header {
     margin-top: 50vh;
 }
 
+.welcome-text__h1 {
+    font-size: 4em;
+    font-weight: 700;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 main {
     padding-left: 5em;
     padding-right: 5em;
@@ -64,5 +71,13 @@ main {
     font-size: 1.25em;
     background-color: var(--gray);
     display: inline-block;
+    color: var(--white);
+}
+
+.h1-logo {
+    margin: 0em;
+}
+.mark {
+    background-color: var(--pink);
     color: var(--white);
 }

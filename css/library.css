@@ -95,4 +95,10 @@ img {
     width: 33vw;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
