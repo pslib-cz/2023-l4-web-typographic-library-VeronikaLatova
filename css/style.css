@@ -1,15 +1,10 @@
 :root {
     --darkestpurple: #1A1423;
     --darkpurple: #372549;
-    --purple: #774C60;
+    --purple: #5f5d5e;
     --pink: #B75D69;
     --light: #EACDC2;
 }
-
-
-html {
-    font-family: 'Hanken Grotesk', sans-serif;
-} 
 
 header {
     padding-top: 1.5em;
@@ -51,33 +46,11 @@ header {
     margin-top: 50vh;
 }
 
-.welcome-text__h1 {
-
+main {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
-h1 {
-    font-size: 48px
+.code {
+    font-size: 1.25em;
 }
-
-h2 {
-    font-size: 40px;
-}
-
-h3 {
-    font-size: 32px;
-}
-
-h4 {
-    font-size: 28px;
-} 
-
-h5 {
-    font-size: 24px;
-}
-
-h6 {
-    font-size: 20px;
-}
-
-
-

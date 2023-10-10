@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/library.css">
     <title>TypoLib - Typographic Library</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
         <nav class="navigace">
             <div><a class="navigace__logo" href="./index.html">TypoLib</a></div>
             <menu class="navigace__menu">
-                <li class="navigace__li"><a class="navigace__a" href="">Headings</a></li>
-                <li class="navigace__li"><a class="navigace__a" href="">Text</a></li>
-                <li class="navigace__li"><a class="navigace__a" href="">Buttons</a></li>
-                <li class="navigace__li"><a class="navigace__a" href="">Lists</a></li>
-                <li class="navigace__li"><a class="navigace__a" href="">Tables</a></li>
-                <li class="navigace__li"><a class="navigace__a" href="">Photos</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#headings">Headings</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#text">Text</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#buttons">Buttons</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#lists">Lists</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#tables">Tables</a></li>
+                <li class="navigace__li"><a class="navigace__a" href="#photos">Photos</a></li>
             </menu>
         </nav>
         <div class="welcome-text">
@@ -28,12 +29,14 @@
         </div>
     </header>
     <main>
-        <section>
+        <section id="headings">
             <h2>Headings</h2>
             <p>Make a bold statement with our diverse collection of headings.</p>
             <div>
                 <p>Included tags:</p>
-                <code>&#60h1&#62</code> <code>&#60h2&#62</code> <code>&#60h3&#62</code> <code>&#60h4&#62</code> <code>&#60h5&#62</code> <code>&#60h6&#62</code>
+                <div class="code">
+                    <code>&#60h1&#62</code> <code>&#60h2&#62</code> <code>&#60h3&#62</code> <code>&#60h4&#62</code> <code>&#60h5&#62</code> <code>&#60h6&#62</code>
+                </div>
             </div>
             <div>
                 <h1>This is h1</h1>
@@ -44,14 +47,16 @@
                 <h6>This is h6</h6>
             </div>
         </section>
-        <section>
+        <section id="text">
             <h2>Text</h2>
             <p>This typographic library offers an array of styles to suit every message.</p>
             <p>Included tags:</p>
-            <code>&#60p&#62</code> <code>&#60a&#62</code> <code>&#60i&#62</code> <code>&#60s&#62</code> <code>&#60b&#62</code> <code>&#60mark&#62</code> <code>&#60small&#62</code> <code>&#60u&#62</code>
+            <div class="code">
+                <code>&#60p&#62</code> <code>&#60a&#62</code> <code>&#60i&#62</code> <code>&#60s&#62</code> <code>&#60b&#62</code> <code>&#60mark&#62</code> <code>&#60small&#62</code> <code>&#60u&#62</code>
+            </div>
             <p>This is how <b>bold</b> text looks like. This is an <i>italic</i> text. This text is <a href="#">clickable</a>. This is <u>underlined</u> and this is <s>striked</s>. This one is <mark>marked</mark> and this one is <small>small</small>.</p>
         </section>
-        <section>
+        <section id="buttons">
             <h2>Buttons</h2>
             <p>Click, engage, and make a lasting impression with these button variants.</p>
             <div>
@@ -61,9 +66,13 @@
                 <a class="button--noclick">Button</a>
             </div>
         </section>
-        <section>
+        <section id="lists">
             <h2>Lists</h2>
             <p>Organize and prioritize effortlessly with our versatile list variants.</p>
+            <p>Included tags:</p>
+            <div class="code">
+                <code>&#60ol&#62</code> <code>&#60ul&#62</code> <code>&#60li&#62</code>
+            </div>
             <div>
                 <h3>Ordered list</h3>
                 <ol>
@@ -85,9 +94,12 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section id="tables">
             <h2>Tables</h2>
             <p>Transform raw information into insightful visuals that captivate your audience and convey complex data into something organized.</p>
+            <div class="code">
+                <code>&#60table&#62</code> <code>&#60caption&#62</code> <code>&#60thead&#62</code> <code>&#60tbody&#62</code> <code>&#60tfoot&#62</code> <code>&#60th&#62</code> <code>&#60td&#62</code> <code>&#60tr&#62</code>
+            </div>
             <div>
                 <table>
                     <caption>Table of data</caption>
@@ -128,7 +140,7 @@
                 </table>
             </div>
         </section>
-        <section>
+        <section id="photos">
             <h2>Photos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deserunt earum cumque repudiandae consequatur exercitationem? Natus nobis dolores illum perferendis doloribus ad neque assumenda ab cumque sit! Accusantium, dolores? Sequi?</p>
             <h3>Single image</h3>
