@@ -75,7 +75,7 @@ table {
 }
 
 td, th {
-    border: thin var(--gray) solid;
+    border: var(--pink) solid;
     padding: .5rem;
     text-align: center;
 }
@@ -84,6 +84,15 @@ caption {
     font-size: 1.5em;
     color: var(--darkestpurple);
     font-weight: 700;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.image {
+    width: 33vw;
 }
 
 
