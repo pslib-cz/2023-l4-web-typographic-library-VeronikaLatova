@@ -9,7 +9,7 @@
 
 header {
     padding-top: 1.5em;
-    padding-bottom: 60vh;
+    padding-bottom: 40vh;
     background-color: var(--darkestpurple);
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 .navigace__logo {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: var(--light);
     text-decoration: none;
     font-weight: 700;
@@ -48,11 +48,11 @@ header {
 .welcome-text {
     text-align: center;
     color: var(--light);
-    margin-top: 50vh;
+    margin-top: 25vh;
 }
 
 .welcome-text__h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
     padding-left: 2em;
     padding-right: 2em;

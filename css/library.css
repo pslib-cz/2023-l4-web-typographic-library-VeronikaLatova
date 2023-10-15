@@ -9,7 +9,8 @@
 
 html {
     font-family: 'Hanken Grotesk', sans-serif;
-    color: var(--darkpurple);
+    color: var(--light);
+    background-color: var(--darkestpurple);
 } 
 
 h1 {
