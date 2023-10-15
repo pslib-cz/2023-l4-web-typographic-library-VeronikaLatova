@@ -3,7 +3,7 @@
     --darkpurple: #372549;
     --gray: #5f5d5e;
     --pink: #B75D69;
-    --light: #EACDC2;
+    --light: #efd8cf;
     --white: #ffffff ;
 }
 
@@ -84,6 +84,7 @@ main {
 
 section {
     padding-bottom: 2em;
+    border-bottom: 5px solid var(--darkpurple);
 }
 
 .button-demo {
