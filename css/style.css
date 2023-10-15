@@ -81,3 +81,24 @@ main {
     background-color: var(--pink);
     color: var(--white);
 }
+
+section {
+    padding-bottom: 2em;
+}
+
+.button-demo {
+    border: 3px solid var(--light);
+    display: inline-block;
+}
+
+.button-demo:hover {
+    background-color: var(--light);
+    color: var(--darkestpurple);
+    cursor: pointer;
+}
+
+.buttons__div {
+    background-color: var(--white);
+    padding: 2em;
+    display: inline-block;
+}

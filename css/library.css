@@ -37,6 +37,7 @@ h5 {
     font-weight: 700;
     padding: 1em 2em;
     border-radius: 30px;
+    display: inline-block;
 }
 
 .button--basic {
@@ -54,7 +55,7 @@ h5 {
 .button--reversed {
     background-color: var(--darkestpurple);
     color: var(--light);
-    border: 5px solid var(--darkestpurple);
+    border: 5px solid var(--light);
 }
 
 .button--reversed:hover {
@@ -81,9 +82,18 @@ td, th {
     text-align: center;
 }
 
+td:hover {
+    background-color: var(--white);
+    color: var(--darkestpurple);
+}
+
+th {
+    background-color: var(--pink);
+}
+
 caption {
     font-size: 1.5em;
-    color: var(--darkestpurple);
+    color: var(--light);
     font-weight: 700;
 }
 
