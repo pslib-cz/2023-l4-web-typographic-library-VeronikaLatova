@@ -90,6 +90,7 @@ section {
 .button-demo {
     border: 3px solid var(--light);
     display: inline-block;
+    color: var(--light);
 }
 
 .button-demo:hover {
