@@ -28,14 +28,6 @@ TypoLib has predefined colors. But it is up to you, whether you want to use them
     --white: #ffffff;
 }
 ```
-## Headings
-You can use headings from `<h1>` to `<h5>`. Font sizes are:
-* `h1`: 3.25em
-* `h2`: 2.75em
-* `h3`: 2.25em
-* `h4`: 2em
-* `h5`: 1.75em
-
 ## Font
 Font used in this library is called: "Hanken Grotesk". You can find this font on [Google Fonts](https://fonts.google.com/). All you have to do is to copy these links and insert them into your file's `<head>`
 ```html
@@ -43,6 +35,13 @@ Font used in this library is called: "Hanken Grotesk". You can find this font on
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 ```
+## Headings
+You can use headings from `<h1>` to `<h5>`. Font sizes are:
+* `h1`: 3.25em
+* `h2`: 2.75em
+* `h3`: 2.25em
+* `h4`: 2em
+* `h5`: 1.75em
 ## Text
 ## Buttons
 ## Lists
