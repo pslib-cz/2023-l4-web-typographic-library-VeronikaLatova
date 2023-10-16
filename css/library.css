@@ -110,7 +110,22 @@ img {
     flex-wrap: wrap;
 }
 
+.image__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+figure:hover .image__caption {
+    opacity: 100;
+    background-color: var(--darkestpurple);
+    transition: .25s;
+    color: var(--white);
+}
+
 figure {
+    position: relative;
     max-width: 400px;
     border-radius: 20px;
 }
