@@ -46,11 +46,11 @@ You can use headings from `<h1>` to `<h5>`. Font sizes are:
 Default text has `1rem` size. Other tags you can use to make your text more interesting:
 - `<b>` for **bold** text
 - `<i>` for *italic* text
-- `<a>` for text with hypertext link
+- `<a>` for text with hypertext link (don't forget to add "href" :D)
 - `<s>` for ~~striked~~ text
 - `<mark>` for colorfuly marked word or text
 - `<small>` for smaller text
 ## Buttons
 ## Lists
-## Tables
+## Table
 ## Photos
