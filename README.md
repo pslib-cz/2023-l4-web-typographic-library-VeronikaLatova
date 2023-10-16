@@ -13,7 +13,9 @@ Have a great time exploring!**
 1. Download TypoLib
 2. Add CSS file (library.css) into the folder with your project
 3. Link this CSS file into your document's head section.
-
+```html
+<link href="library.css" rel="stylesheet">
+```
 ## Usage
 ...
 ## Components
