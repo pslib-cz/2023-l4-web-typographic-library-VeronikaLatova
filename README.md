@@ -2,7 +2,7 @@
 # Typography CSS library
 **Author:** *Veronika Látová*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-VeronikaLatova/)** site for preview.
 ## Dependecies
 ...
 ## Implementation
