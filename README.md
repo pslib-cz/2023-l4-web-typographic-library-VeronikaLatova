@@ -51,6 +51,16 @@ Default text has `1rem` size. Other tags you can use to make your text more inte
 - `<mark>` for colorfuly marked word or text
 - `<small>` for smaller text
 ## Buttons
+For button styling, there are several steps you have to follow to make it work.
+There are 3 different types of buttons:
+- `class="button--basic"` for basic button
+- `class="button--reversed"` for basic button, but with reversed colors
+- `class="button--noclick"` for a no-clickable button
+There are shared properties between these buttons, they are written in `class="button"`
+So if you want to use any of these buttons, use tag `<a>` and add class like in an example:
+```html
+<a class="button button--basic">Button</a>
+```
 ## Lists
 ## Table
 ## Photos
