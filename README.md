@@ -127,7 +127,7 @@ When creating a table, there are several tags we can use. Here they are with the
 
 Here is an example of a usage in a code:
 ```html
-<table>
+                <table>
                     <caption>Table of data</caption>
                     <thead>
                         <tr>
