@@ -3,8 +3,12 @@
 **Author:** *Veronika Látová*
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-VeronikaLatova/)** site for preview.
-## Dependecies
-...
+## Description
+TypoLib is a free typographic library, originally created as a school project.
+You can implement this library (CSS) into your HTML code and save the time you would spend with styling. This library offers a variety of styles for headings, text, lists, buttons, tables, images and even gallery (more likely a picture alignment). You don't have to worry about color palette either! TypoLib provides a pallete of colors, you can change whenever you like.
+
+Don't hestitate and download the file, and link it into your project (via Download).
+Have a great time exploring!
 ## Implementation
 ...
 ## Usage
