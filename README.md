@@ -63,7 +63,7 @@ So if you want to use any of these buttons, use tag `<a>` and add class like in 
 ```
 ## Lists
 There are two types of lists. Ordered list `<ol>` and unordered `<ul>` list. In this library, styled lists have for example bigger space between lines and bold numbers in the beginning of a list.
-This is just an example, how to create ordered lists:
+This is just an example, how to create ordered and unordered lists:
 ### Ordered list
 ```html
                 <ol>
@@ -91,6 +91,20 @@ This is just an example, how to create ordered lists:
                     </li>
                 </ol>
 ```
-###
+### Unordered list
+```html
+                <ul>
+                    <li>Milk</li>
+                    <li>Flour</li>
+                    <li>Eggs</li>
+                    <li>Bread
+                        <ul>
+                            <li>Wheat</li>
+                            <li>Wholegrain</li>
+                        </ul>
+                    </li>
+                    <li>Sugar</li>
+                </ul>
+```
 ## Table
 ## Photos
