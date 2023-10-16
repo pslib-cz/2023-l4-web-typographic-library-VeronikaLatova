@@ -62,7 +62,7 @@ So if you want to use any of these buttons, use tag `<a>` and add class like in 
 <a class="button button--basic">Button</a>
 ```
 ## Lists
-There are two types of lists. Ordered list `<ol>` and unordered `<ul>` list. In this library, styled lists have for example bigger space between lines and bold numbers in the beginning of a list.
+There are two types of lists. Ordered list `<ol>` and unordered `<ul>` list. `<li>` is an item in both of them. In this library, styled lists have for example bigger space between lines and bold numbers in the beginning of a list.
 This is just an example, how to create ordered and unordered lists:
 ### Ordered list
 ```html
@@ -107,4 +107,62 @@ This is just an example, how to create ordered and unordered lists:
                 </ul>
 ```
 ## Table
+A table in TypoLib is styled with simplicity and to make your info nicely structured.
+When creating a table, there are several tags we can use. Here they are with their usage:
+- `<table>`: Defines a table.
+   
+- `<caption>`: Provides a table caption.
+
+- `<thead>`: Groups table header content.
+
+- `<tbody>`: Groups main table content.
+
+- `<tfoot>`: Groups table footer content.
+
+- `<th>`: Defines a header cell.
+
+- `<td>`: Defines a data cell.
+
+- `<tr>`: Defines a table row.
+
+Here is an example of a usage in a code:
+```html
+<table>
+                    <caption>Table of data</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Job</th>
+                            <th>Salary</th>
+                            <th>Drivers licence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Martina</td>
+                            <td>Assistant</td>
+                            <td>35K</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Sarah</td>
+                            <td>Teacher</td>
+                            <td>40K</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Eric</td>
+                            <td>Manager</td>
+                            <td>85K</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Peter</td>
+                            <td>Marketing Specialist</td>
+                            <td>65K</td>
+                            <td>No</td>
+                        </tr>
+                    </tbody>
+                </table>
+```
 ## Photos
