@@ -28,6 +28,13 @@ TypoLib has predefined colors. But it is up to you, whether you want to use them
     --white: #ffffff;
 }
 ```
+You can even change the main color of a background and text by modifiing these in CSS file.
+```css
+html {
+    color: var(--light);
+    background-color: var(--darkestpurple);
+} 
+```
 ## Font
 Font used in this library is called: "Hanken Grotesk". You can find this font on [Google Fonts](https://fonts.google.com/). All you have to do is to copy these links and insert them into your file's `<head>`
 ```html
