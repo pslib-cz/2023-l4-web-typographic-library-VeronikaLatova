@@ -28,6 +28,16 @@ TypoLib has predefined colors. But it is up to you, whether you want to use them
     --white: #ffffff;
 }
 ```
-## Components
-### First
-### Second
+## Headings
+You can use headings from `<h1>` to `<h5>`. Font sizes are:
+* `h1`: 3.25em
+* `h2`: 2.75em
+* `h3`: 2.25em
+* `h4`: 2em
+* `h5`: 1.75em
+
+## Text
+## Buttons
+## Lists
+## Tables
+## Photos
