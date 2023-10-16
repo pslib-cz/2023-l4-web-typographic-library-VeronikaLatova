@@ -178,7 +178,7 @@ To implement single image, use this syntax with these classes:
 ```html
             <figure>
                 <a href="./img/singlephoto.jpg">
-                    <img src="./img/singlephoto.jpg" alt="White computer screen with purple lights around">
+                    <img src="./img/singlephoto.jpg" alt="Alternative text">
                 </a>
                 <figcaption class="image__caption">This is how figcaption works</figcaption>
             </figure>
