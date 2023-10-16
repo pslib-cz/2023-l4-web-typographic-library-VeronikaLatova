@@ -10,7 +10,7 @@ You can implement this library (CSS) into your HTML code and save the time you w
 **Don't hestitate and download the file, and link it into your project (via Implementation).
 Have a great time exploring!**
 ## Implementation
-1. Download TypoLib
+1. Download TypoLib (library.css) in [here](https://github.com/pslib-cz/2023-l4-web-typographic-library-VeronikaLatova/tree/master/css)
 2. Add CSS file (library.css) into the folder with your project
 3. Link this CSS file into your document's head section.
 ```html
