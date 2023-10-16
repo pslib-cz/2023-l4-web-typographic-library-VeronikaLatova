@@ -16,8 +16,18 @@ Have a great time exploring!**
 ```html
 <link href="library.css" rel="stylesheet">
 ```
-## Usage
-...
+## Colours
+TypoLib has predefined colors. But it is up to you, whether you want to use them. If you want, you can simply change them. You will find this color palette in the beginning of the CSS file.
+```css
+:root {
+    --darkestpurple: #1A1423;
+    --darkpurple: #372549;
+    --gray: #5f5d5e;
+    --pink: #B75D69;
+    --light: #EACDC2;
+    --white: #ffffff;
+}
+```
 ## Components
 ### First
 ### Second
