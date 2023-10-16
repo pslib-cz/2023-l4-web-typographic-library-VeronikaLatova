@@ -166,3 +166,30 @@ Here is an example of a usage in a code:
                 </table>
 ```
 ## Photos
+Section "Photos" has two parts. Single photo and gallery (simple).
+To implement single image, use this syntax with these classes:
+```html
+            <figure>
+                <a href="./img/singlephoto.jpg">
+                    <img src="./img/singlephoto.jpg" alt="White computer screen with purple lights around">
+                </a>
+                <figcaption class="image__caption">This is how figcaption works</figcaption>
+            </figure>
+```
+And to implement gallery (you can add how many `<figure>` you want, into `<div class="gallery">`):
+```html
+            <div class="gallery">
+                <figure>
+                    <a href="./img/gallery_1.jpg">
+                        <img src="./img/gallery_1.jpg" alt="Alternative text">
+                    </a>
+                    <figcaption class="image__caption">Caption</figcaption>
+                </figure>
+                <figure>
+                    <a href="./img/gallery_2.jpg">
+                        <img src="./img/gallery_2.jpg" alt="Alternative text">
+                    </a>
+                    <figcaption class="image__caption">Caption</figcaption>
+                </figure>
+            </div>
+```
