@@ -62,5 +62,35 @@ So if you want to use any of these buttons, use tag `<a>` and add class like in 
 <a class="button button--basic">Button</a>
 ```
 ## Lists
+There are two types of lists. Ordered list `<ol>` and unordered `<ul>` list. In this library, styled lists have for example bigger space between lines and bold numbers in the beginning of a list.
+This is just an example, how to create ordered lists:
+### Ordered list
+```html
+                <ol>
+                    <li>Programming Languages
+                        <ol>
+                          <li>C</li>
+                          <li>C++</li>
+                          <li>Java</li>
+                          <li>Python</li>
+                        </ol>
+                    </li>
+                    <li>Web Technologies
+                        <ol>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript
+                            <ol>
+                                <li>React</li>
+                                <li>Angular</li>
+                                <li>Vue</li>
+                            </ol>
+                          </li>
+                          <li>Bootstrap</li>
+                        </ol>
+                    </li>
+                </ol>
+```
+###
 ## Table
 ## Photos
